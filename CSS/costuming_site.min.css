@@ -1,0 +1,38 @@
+
+.btn-flutuante{
+    position: fixed;
+    bottom: 75%;
+    right: 20px;
+    color:white;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-color: lightgreen;
+}
+
+.iframe-container{
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 260px;
+  height: 400px;
+  display: none;
+  border: none;
+  z-index: 1000;
+  border-radius: 0.35rem;
+}
+
+
+.texto-clicavel {
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+  transition-delay: 0.3s;
+}
+
+.texto-clicavel:hover{
+  color:black;
+  text-decoration: underline;
+  cursor: pointer;
+}
