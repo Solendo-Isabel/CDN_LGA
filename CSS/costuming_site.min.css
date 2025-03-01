@@ -31,10 +31,11 @@
   border-radius: 0.35rem;
 }
 
-.texto-clicavel {
+.Clickable {
   cursor: pointer;
   transition: background-color 0.5s ease-in-out;
   transition-delay: 0.3s;
+  text-decoration: underline;
 }
 
 .texto-clicavel:hover{
