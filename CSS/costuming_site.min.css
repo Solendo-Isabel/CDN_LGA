@@ -1,9 +1,9 @@
 
 #floatingButton{
-  position: fixed;
-  bottom: 75%;
-  right: 20px;
-  color:white;
+  position: absolute;
+  bottom: 85%;
+  right: 8px;
+  color:white;;
   border:none;
   border-radius: 10px;
   cursor: pointer;
@@ -18,17 +18,16 @@
 }
 
 
-
 #Comunica{
-  position: fixed;
-  bottom: 80px;
-  right: 20px;
+  position: absolute;
+  bottom: 5%;
+  right: 8px;
   min-width: 200px;
   min-height: 400px;
-  width: 360px;
-  height: 600px;
+  width: 320px;
+  height: 500px;
   display: none;
-  z-index: 1000;
+  z-index: 800;
   padding: 0px;
   margin: 0px;
   border-radius: 0.35rem;
